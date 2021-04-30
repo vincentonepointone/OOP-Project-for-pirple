@@ -36,13 +36,39 @@
            - b. Type of Fisherman
            - c. Type of fish
            - d. Wheight of fish
-       - 2.2 What method will be available to call on data?
+        2.2 What method will be available to call on data?
            - a. Create new user based on type of fisherman and add name wheight of fish 
              - to that class of fishermans score board => addToScoreBoard();
 
 ---
 
 ### reAdder object inherit properties from fisherman object
+                                                                                                    
+    +------------------------------------+                                                            
+    |   contructor function for          |------------------------------------------------------------
+    |   new user                         |                constructor function to add Score          |
+    +------------------------------------------------------------------------------------------------|
+    |     name : nameInput               |  new propeties   |     function to create new score object|
+    |     lastName : lastnameInput       |#:wheight of fish |     with inherited properties and new  |
+    |     gender : genderInput           |#:time of catch   |     user data                          |
+    |     type : typeInput               |                  |                                        |
+    |                                    |                  |                                        |
+    |                                    |                  |                                        |
+    |                                    |                  |                                        |
+-   |                                    |                  |                                        |
+    |                                    |                  |                                        |
+    +------------------------------------------------------------------------------------------------+
+    |                                    |                                                            
+    |  function to create new user object|                                                            
+    |  with properties passed in         |                                                            
+    |                                    |                                                            
+    |                                    |                                                            
+    |                                    |                                                            
+    |                                    |                                                            
+    |                                    |                                                            
+    |                                    |                                                            
+    +------------------------------------+                                                            
+                                                                                                                                   
                                                                                                                    
                    >Fisherman Object                                       reAdder Object                        
                   +--------------------------------------+              +-----------------------------------------+
