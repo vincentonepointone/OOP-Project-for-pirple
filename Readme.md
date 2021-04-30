@@ -42,7 +42,7 @@
 
 ---
 
-### fisherman object is inherited from reAdder Object
+### reAdder object inherit properties from fisherman object
                                                                                                                    
                    >Fisherman Object                                       reAdder Object                        
                   +--------------------------------------+              +-----------------------------------------+
