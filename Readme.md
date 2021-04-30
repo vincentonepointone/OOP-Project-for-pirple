@@ -40,9 +40,9 @@
            - a. Create new user based on type of fisherman and add name wheight of fish 
              - to that class of fishermans score board => addToScoreBoard();
 
-
+---
                                                                                                                    
-                   >Fisherman Object                                     >   reAdder Object                        
+                   >Fisherman Object                                       reAdder Object                        
                   +--------------------------------------+              +-----------------------------------------+
                   |  Value added to new Fisherman Obj    |              |  Value added to scoreAdder Obj          |
                   |--------------------------------------|              |---------------------------------------- |
