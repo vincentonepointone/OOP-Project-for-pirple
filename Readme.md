@@ -68,29 +68,29 @@
     |                                    |                                                            
     |                                    |                                                            
     +------------------------------------+                                                            
-                                                                                                                                   
+ ---                                                                                                                                  
                                                                                                                    
-                   >Fisherman Object                                       reAdder Object                        
-                  +--------------------------------------+              +-----------------------------------------+
-                  |  Value added to new Fisherman Obj    |              |  Value added to scoreAdder Obj          |
-                  |--------------------------------------|              |---------------------------------------- |
-                  |  this.name = name;                   |              |  this.name = name;                      |
-                  |  this.lastName = lastName;           |              |  this.fishType = fishType;              |
-                  |  this.gender = gender;               |              |  this.fisherType = fisherType;          |
-                  |  this.type  = type;                  |              |  this.whieght = wheightOfFish;          |
-                  |                                      |              |  this.time = getTime();                 |
-                  |--------------------------------------|              |-----------------------------------------|
-                  |  Metdods to be called                |              |  Methods to be called                   |
-                  |--------------------------------------|              |-----------------------------------------|
-                  |  newUser = () => {                   |              |   let score = new scoreAdder(name, type,|
-                  |    {this.name} = this.name this.age.......          |   fishtype, wheight, time)              |
-                  |  }                                   |              |                                         |
-                  |                                      |              |// add score to document //              |
-                  |                                      |              |                                         |
-                  |                                      |              |                                         |
-                  |                                      |              |                                         |
-                  |                                      |              |                                         |
-                  +--------------------------------------+              +-----------------------------------------+
+    >Fisherman Object                                       reAdder Object                        
+    +--------------------------------------+              +-----------------------------------------+
+    |  Value added to new Fisherman Obj    |              |  Value added to scoreAdder Obj          |
+    |--------------------------------------|              |---------------------------------------- |
+    |  this.name = name;                   |              |  this.name = name;                      |
+    |  this.lastName = lastName;           |              |  this.fishType = fishType;              |
+    |  this.gender = gender;               |              |  this.fisherType = fisherType;          |
+    |  this.type  = type;                  |              |  this.whieght = wheightOfFish;          |
+    |                                      |              |  this.time = getTime();                 |
+    |--------------------------------------|              |-----------------------------------------|
+    |  Metdods to be called                |              |  Methods to be called                   |
+    |--------------------------------------|              |-----------------------------------------|
+    |  newUser = () => {                   |              |   let score = new scoreAdder(name, type,|
+    |    {this.name} = this.name this.age.......          |   fishtype, wheight, time)              |
+    |  }                                   |              |                                         |
+    |                                      |              |// add score to document //              |
+    |                                      |              |                                         |
+    |                                      |              |                                         |
+    |                                      |              |                                         |
+    |                                      |              |                                         |
+    +--------------------------------------+              +-----------------------------------------+
 
 
                       -\                                                                             
